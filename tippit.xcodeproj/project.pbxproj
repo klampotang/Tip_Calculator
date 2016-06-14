@@ -14,6 +14,7 @@
 		88E0BE3A1D109BE700C37557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E0BE381D109BE700C37557 /* LaunchScreen.storyboard */; };
 		88E0BE451D109BE700C37557 /* tippitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E0BE441D109BE700C37557 /* tippitTests.swift */; };
 		88E0BE501D109BE700C37557 /* tippitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E0BE4F1D109BE700C37557 /* tippitUITests.swift */; };
+		88E0BE5E1D10BF8200C37557 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E0BE5D1D10BF8200C37557 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		88E0BE4B1D109BE700C37557 /* tippitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E0BE4F1D109BE700C37557 /* tippitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippitUITests.swift; sourceTree = "<group>"; };
 		88E0BE511D109BE700C37557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E0BE5D1D10BF8200C37557 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				88E0BE2F1D109BE700C37557 /* AppDelegate.swift */,
 				88E0BE311D109BE700C37557 /* ViewController.swift */,
+				88E0BE5D1D10BF8200C37557 /* SettingsViewController.swift */,
 				88E0BE331D109BE700C37557 /* Main.storyboard */,
 				88E0BE361D109BE700C37557 /* Assets.xcassets */,
 				88E0BE381D109BE700C37557 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			files = (
 				88E0BE321D109BE700C37557 /* ViewController.swift in Sources */,
 				88E0BE301D109BE700C37557 /* AppDelegate.swift in Sources */,
+				88E0BE5E1D10BF8200C37557 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
