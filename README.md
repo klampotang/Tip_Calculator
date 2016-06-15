@@ -10,10 +10,10 @@ Time spent: 2 hours spent in total
 
 The following **required** functionality is complete:
 
-* [*] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [*] Settings page to change the default tip percentage.
+* [x] Settings page to change the default tip percentage.
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
@@ -21,7 +21,9 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] List anything else that you can get done to improve the app functionality!
+* [x] Changed the UI
+* [x] Added a feature to link to Yelp to write feedback on the experience
 
 ## Video Walkthrough
 
