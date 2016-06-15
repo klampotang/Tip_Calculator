@@ -25,6 +25,14 @@ class ViewController: UIViewController {
         let defaults = NSUserDefaults.standardUserDefaults()
         let tipValue = defaults.integerForKey("default_tip_percentage")
         tipSegControl.selectedSegmentIndex = tipValue
+        
+        
+        let tipPercentages = [0.18, 0.2, 0.3]
+        let bill = Double(billField.text!) ?? 0
+        let tip = bill * tipPercentages[tipSegControl.selectedSegmentIndex]
+        let total = bill + tip
+        tipLabel.text = String(format: "$%.2f", tip)
+        totalLabel.text = String(format: "$%.2f", total)
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,6 +40,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func yelpButton(sender: AnyObject) {
+        if let url = NSURL(string: "http://www.yelp.com") {
+            UIApplication.sharedApplication().openURL(url)
+        }
+    }
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
     }
